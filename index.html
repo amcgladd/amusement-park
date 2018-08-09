@@ -10,7 +10,7 @@
   </head>
   <body>
     <div class="container">
-      <form>
+      <form id="heightForm">
         <div class="row">
           <h3>Enter your height</h3>
         </div>
@@ -21,25 +21,28 @@
           <div class="col">
             <input type="text" class="form-control" placeholder="Inches" id="inches">
           </div>
+           <button type="submit" class="btn btn-primary">Submit</button>
         </div>
       </form>
 
-      <div class="card" style="width: 18rem;">
-        <img id="smallride" class="card-img-top" src="img/smallride.jpg" alt="Card image cap">
+      <h2>You can ride the following:</h2>
+
+      <div id="smallride" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/smallride.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img id="medride" class="card-img-top" src="img/medride.jpg" alt="Card image cap">
+      <div id="medride" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/medride.jpg" alt="Card image cap">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>
       </div>
 
-      <div class="card" style="width: 18rem;">
-        <img id="largeride" class="card-img-top" src="img/largeride.jpeg" alt="Card image cap">
+      <div id="largeride" class="card" style="width: 18rem;">
+        <img class="card-img-top" src="img/largeride.jpeg" alt="Card image cap">
         <div class="card-body">
           <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
         </div>

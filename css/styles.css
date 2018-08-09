@@ -1,3 +1,4 @@
 .card {
   float: left;
+  display: none;
 }
